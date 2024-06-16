@@ -24,10 +24,10 @@ a:hover {
 }
 header {
     position: relative;
-    padding-bottom: 20px;
 }
 .navbar {
-    background-color: #761080;
+    position: relative;
+    background-color: #41068f;
     width: 100%;
     height: 100px;
     margin: 0 auto;
@@ -47,10 +47,16 @@ header {
     display: flex;
     gap: 50px;
 }
-.bg-image {
+.bg {
     width: 100%;
-    height: 100%;
-    background-image: url('imgs/bgimage.png');
+    height: 1000px;
+    background: url(/imgs/bgimage.png) repeat 0 0;
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top; 
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 30%;
 }
